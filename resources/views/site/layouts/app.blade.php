@@ -1,14 +1,24 @@
 <html>
     <head>
-        <title>App Name - @yield('title')</title>
+        @include('site.layouts.head')
     </head>
     <body>
-        @section('sidebar')
-            This is the master sidebar.
-        @show
+        <div class="main-page-wrapper">
+            <!-- Header Section-->
+            @include('site.layouts/header')
 
-        <div class="container">
+            <!-- Header Section-->
+            @include('site.layouts/banner')
+
+            <!-- Main Content -->
             @yield('content')
-        </div>
+            
+            
+            <!-- Footer Section-->
+            @include('site.layouts/footer')
+            
+            <!-- Script Section-->
+            @include('site.layouts/script')
+        </div> <!-- /.main-page-wrapper -->
     </body>
 </html>
