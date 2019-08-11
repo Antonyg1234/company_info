@@ -5,7 +5,7 @@
 -->
 <footer>
     <div class="container">
-        <a href="index.html" class="logo"><img src="images/logo/logo.png" alt="Logo"></a>
+        <a href="index.html" class="logo"><img src="{{ asset('images/logo/logo.png') }}" alt="Logo"></a>
 
         <ul>
             <li><a href="#" class="tran3s round-border"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

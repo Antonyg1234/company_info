@@ -187,7 +187,7 @@
 
                 <div class="mix grid-item web webd dmedia support">
                     <div class="single-img">
-                        <img src="images/project/2.jpg" alt="Image">
+                        <img src="{{ asset('images/project/2.jpg') }}" alt="Image">
                         <div class="opacity">
                             <div class="border-shape"><div><div>
                                 <h6><a href="#">Sweet Photo</a></h6>
@@ -659,12 +659,12 @@
     <div id="partner-section">
         <div class="container">
             <div id="partner_logo" class="owl-carousel owl-theme">
-                <div class="item"><img src="images/logo/p1.png" alt="logo"></div>
-                <div class="item"><img src="images/logo/p2.png" alt="logo"></div>
-                <div class="item"><img src="images/logo/p3.png" alt="logo"></div>
-                <div class="item"><img src="images/logo/p4.png" alt="logo"></div>
-                <div class="item"><img src="images/logo/p5.png" alt="logo"></div>
-                <div class="item"><img src="images/logo/p2.png" alt="logo"></div>
+                <div class="item"><img src="{{ asset('images/logo/p1.png') }}" alt="logo"></div>
+                <div class="item"><img src="{{ asset('images/logo/p2.png') }}" alt="logo"></div>
+                <div class="item"><img src="{{ asset('images/logo/p3.png') }}" alt="logo"></div>
+                <div class="item"><img src="{{ asset('images/logo/p4.png') }}" alt="logo"></div>
+                <div class="item"><img src="{{ asset('images/logo/p5.png') }}" alt="logo"></div>
+                <div class="item"><img src="{{ asset('images/logo/p2.png') }}" alt="logo"></div>
             </div> <!-- End .partner_logo -->
         </div> <!-- /.container -->
     </div> <!-- /#partner-section -->
@@ -706,12 +706,12 @@
                 </div> <!-- /.col- -->
 
 
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="map-area">
-                        <h2>Our Location</h2>
-                        <div id="map"></div>
-                    </div> <!-- /.map-area -->
-                </div> <!-- /.col- -->
+{{--                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">--}}
+{{--                    <div class="map-area">--}}
+{{--                        <h2>Our Location</h2>--}}
+{{--                        <div id="map"></div>--}}
+{{--                    </div> <!-- /.map-area -->--}}
+{{--                </div> <!-- /.col- -->--}}
             </div> <!-- /.contact-address-content -->
 
 
